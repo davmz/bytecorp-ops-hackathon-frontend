@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"], // Body text, UI elements
+        display: ["Montserrat", "sans-serif"], // Headings, titles, branding
+        mono: ["JetBrains Mono", "monospace"], // Code blocks, buttons, technical UI
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
